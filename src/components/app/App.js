@@ -9,7 +9,7 @@ import forest from './previews/forest-preview.jpg'
 export default function App() {
   let modalImgClassName = "full-img"
   const handleImgClick = function() {
-    console.log('img clicked')
+    console.log('clicked')
     if (modalImgClassName === "full-img") { modalImgClassName += "-open"}
   }
   return (
